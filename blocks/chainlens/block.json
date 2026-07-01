@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "cryptostack/chainlens",
+	"version": "0.1.0",
+	"title": "ChainLens Token Scanner",
+	"category": "widgets",
+	"icon": "search",
+	"description": "A crypto token safety scanner your visitors can use to check any token.",
+	"keywords": [ "crypto", "token", "scanner", "honeypot", "chainlens", "defi" ],
+	"textdomain": "cryptostack-chainlens",
+	"supports": { "html": false, "reusable": true, "multiple": false, "align": [ "wide" ] },
+	"attributes": {
+		"theme": { "type": "string", "default": "" },
+		"token": { "type": "string", "default": "" }
+	},
+	"editorScript": "csc-block"
+}
