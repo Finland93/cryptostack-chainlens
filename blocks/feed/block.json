@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "cryptostack/chainlens-feed",
+	"version": "0.1.0",
+	"title": "ChainLens New Tokens",
+	"category": "widgets",
+	"icon": "list-view",
+	"description": "A live feed of newly listed tokens with ETH, BASE, BNB and SOL tabs.",
+	"keywords": [ "crypto", "new tokens", "feed", "chainlens", "defi" ],
+	"textdomain": "cryptostack-chainlens",
+	"supports": { "html": false, "reusable": true, "multiple": true },
+	"attributes": {
+		"theme": { "type": "string", "default": "" },
+		"chain": { "type": "string", "default": "" }
+	},
+	"editorScript": "csc-feed-block"
+}
