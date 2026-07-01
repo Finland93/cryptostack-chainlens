@@ -57,16 +57,6 @@ function csc_bootstrap() {
 add_action( 'plugins_loaded', 'csc_bootstrap' );
 
 /**
- * Load translations.
- *
- * @return void
- */
-function csc_load_textdomain() {
-	load_plugin_textdomain( 'cryptostack-chainlens', false, dirname( CSC_BASENAME ) . '/languages' );
-}
-add_action( 'init', 'csc_load_textdomain' );
-
-/**
  * Seed default settings on activation.
  *
  * @return void
